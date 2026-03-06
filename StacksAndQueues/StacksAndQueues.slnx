@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StacksAndQueues.Frontend/StacksAndQueues.Frontend.csproj" />
+  <Project Path="StacksAndQueus.Backend/StacksAndQueus.Backend.csproj" />
+</Solution>
