@@ -1,6 +1,6 @@
 ﻿namespace StacksAndQueus.Backend;
 
-public class StackUsingArray<T>
+public class StackUsingArray<T> : IStack<T>
 {
     private T[] _stack;
     private int _top;
@@ -11,9 +11,9 @@ public class StackUsingArray<T>
         _top = -1;
     }
 
-    public void Push(T item) 
-    { 
-        if(_top == _stack.Length - 1)
+    public void Push(T item)
+    {
+        if (_top == _stack.Length - 1)
         {
             throw new InvalidOperationException("Stack is full");
         }
@@ -21,8 +21,8 @@ public class StackUsingArray<T>
     }
 
     public T Pop()
-    { 
-        if(_top == -1)
+    {
+        if (_top == -1)
         {
             throw new InvalidOperationException("Stack is empty");
         }
@@ -30,8 +30,8 @@ public class StackUsingArray<T>
     }
 
     public T Peek()
-    { 
-        if(_top == -1)
+    {
+        if (_top == -1)
         {
             throw new InvalidOperationException("Stack is empty");
         }
