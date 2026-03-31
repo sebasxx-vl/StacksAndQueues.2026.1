@@ -1,7 +1,8 @@
 ﻿// QUEUES
 using StacksAndQueus.Backend;
-
-var queue = new QueueUsingArray<string>(5);
+//var queue = new QueueUsingArray<string>(5);
+//a diferencia entre un array y una list es que el array hay que definirle un tamaño fijo, mientras que la list es dinamica y se va ajustando segun se le vayan agregando o quitando elementos
+var queue = new QueueUsingList<string>();
 var option = string.Empty;
 
 do

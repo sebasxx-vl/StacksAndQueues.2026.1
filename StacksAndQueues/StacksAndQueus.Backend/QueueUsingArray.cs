@@ -26,7 +26,7 @@ public class QueueUsingArray<T> : IQueue<T>
         _count++;
     }
 
-    public T? Dequeue()
+    public T Dequeue()
     {
         if (_count == 0)
         {

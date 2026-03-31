@@ -24,6 +24,14 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="StacksAndQueus.Backend.QueueUsingList&lt;T&gt;">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueueUsingList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="StacksAndQueus.Backend.IStack&lt;T&gt;">
     <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
